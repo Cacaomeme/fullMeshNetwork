@@ -1,6 +1,7 @@
 ## filesplit.cの使い方
 gcc filesplit.c -o split.out -lm  
-./split.out 分割したいファイル splitlist.txt
+./split.out 分割したいファイル splitlist.txt  
+これで指定された比率でファイルが分割されてでてくる。
 
 ## splitlist.txtの使い方
 各行ごとに分割の比率を指定、２行なら2つのファイルに分かれる。  
